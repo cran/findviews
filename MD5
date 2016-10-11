@@ -1,6 +1,7 @@
-3c1a1868add9722da6cd58ffeaeef521 *DESCRIPTION
+44be91a4154c5c8206275596fac3ca72 *DESCRIPTION
 b6e544245bead583ddabf8c2d069cfa4 *LICENSE
 deaf7f26781cb88dee4337628ec9039b *NAMESPACE
+c507478b3b73dbc035d7f6731688cb3d *NEWS.md
 2a00719f438e78c59da1c258d8bbac4e *R/findviews.R
 e2a563a58e77079cc6e14544f02c6024 *R/findviews_to_compare.R
 27db66a10b994caac581de369f26555d *R/findviews_to_predict.R
@@ -9,8 +10,8 @@ a5bbead1de5b04dbf57821996a1fb378 *R/settings.R
 761e3dcaf5129e1f0a6d64fef5935a54 *R/utils.R
 7853bb0c32e38221d5d9e13dec0afdb1 *R/web_app.R
 f18b32ec54251f2ed29d82da43d7ff2b *R/web_app_content.R
-802c9d7423c3891dca97141a5d4e3cee *R/web_app_plots.R
-dd9dc56b939360c103a305a46c05a03b *README.md
+4644a00c710ba44d9e953d3ddb74de3a *R/web_app_plots.R
+be5f85434d625d2e5604dec1ee65408f *README.md
 221f90943b98bdcf8130d185d0a64a9e *man/findviews.Rd
 aff6654d63d94fc9f5247f27359ee2b3 *man/findviews_core.Rd
 9ff4a8d59a800899bc92eeaa72594037 *man/findviews_to_compare.Rd
@@ -19,7 +20,7 @@ aff6654d63d94fc9f5247f27359ee2b3 *man/findviews_core.Rd
 1d99142658eefbdb9798f27517f86fc8 *man/findviews_to_predict_core.Rd
 e54e5d10c52dc73697083faf017911b3 *tests/testthat.R
 d5943a3d5f6ac40baee8cead5de73add *tests/testthat/generate_df.R
-5ca63d247046e7603ac9c2eb635f1937 *tests/testthat/test-findviews-trunk.R
+b357c06f004a10fd6ae49435357db8ce *tests/testthat/test-findviews-trunk.R
 4ad252cb05d2c857137a379413d7d27c *tests/testthat/test-findviews.R
 86cf892534e4e4d8fca8d1b148c28358 *tests/testthat/test-findviews_to_compare.R
 3cb6b004fa4f3993330d9f13f7fed006 *tests/testthat/test-findviews_to_predict.R
