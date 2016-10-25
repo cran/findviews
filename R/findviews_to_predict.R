@@ -100,7 +100,8 @@ score_predictive_num <- function(views, data, target){
    discretized_data <- lapply(view_cols, function(colname){
       bin_equiwidth(data[[colname]], NBINS_CONT_VARIABLES)
    })
-   discretized_data <- as.data.frame(discretized_data, col.names = view_cols)
+   discretized_data <- as.data.frame(discretized_data)
+   names(discretized_data) <- view_cols
 
    # Computes the scores
    scores <- sapply(views, function(cols){
@@ -170,10 +171,8 @@ preprocess_target <- function(target_data, nbins=4){
 #'
 #'
 #' @examples
-#' \dontrun{
 #' findviews_to_predict_core('mpg', mtcars)
 #' findviews_to_predict_core('mpg', mtcars, view_size_max = 4)
-#' }
 #'
 #' @export
 findviews_to_predict_core <- function(target, data, view_size_max=NULL,
